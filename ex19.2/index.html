@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-sizing:</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        .exemplo1 {
+            background-color: yellow;
+            width: 300px;
+            margin-bottom: 15px;
+        }
+
+        .exemplo2 {
+            background-color: lightblue;
+            width: 300px;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h3>Padding com elemento width usando box-sizing</h3>
+    <div class="exemplo1">
+        Esta div tem 300px de largura.
+    </div>
+
+    <div class="exemplo2">
+        A largura desta div permanece em 300px, apesar dos 50px do padding total para os lados (25px para direita 25px para esquerda), por causa da propriedade box-size: border-box;
+    </div>
+</body>
+</html>
