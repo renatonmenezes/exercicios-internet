@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.one {
+    border-style: solid;
+    border-color: red;
+}
+
+.two {
+    border-style: solid;
+    border-color: green;
+}
+
+.three {
+    border-style: solid;
+    border-color: red green blue yellow;
+}
