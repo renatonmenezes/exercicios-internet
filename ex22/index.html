@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandeiras de países</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        p {
+            color: red;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+        }
+
+        div:hover {
+            width: 150px;
+            background-color: aqua;
+            color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="https://www.google.com.br/" target="_blank">Este link vai para o google</a></h1>
+    <picture>
+        <source media="(max-width: 600px)" srcset="imagens/angola.png" height="100px" width="100px">
+        <img src="imagens/angola.png" alt="angola">
+    </picture>
+
+    <picture>
+        <source media="(max-width: 600px)" srcset="imagens/brazil.png" height="100px" width="100px">
+        <img src="imagens/brazil.png" alt="brasil">
+    </picture>
+
+    <picture>
+        <source media="(max-width: 600px)" srcset="imagens/portugal.png" height="100px" width="100px">
+        <img src="imagens/portugal.png" alt="portugal">
+    </picture>
+    <p>Sou um parágrafo com estilo vermelho.</p>
+    <div>
+        Passe o mouse aqui.
+        <p>Opção 1</p>
+        <p>Opção 2</p>
+        <p>Opção 3</p>
+    </div>    
+</body>
+</html>
