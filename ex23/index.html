@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio (tabela)</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div {
+            border: 5px solid gray;
+            padding: 0px;
+            width: 800px;
+            
+        }
+        table {
+            width: 800px;
+        }
+
+        #cabeça {
+            background-color: aquamarine;
+            padding-top: 30px;
+            font-size: 1.3em;
+        }
+
+        th, td {
+            border: 3px solid rgb(184, 183, 183);
+            padding: 10px;
+        }
+
+        .titulo {
+            background-color: lightgray;
+            text-align: center;
+        }
+
+        .tempo {
+            text-align: center;
+        }
+
+        .valor {
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="5" id="cabeça">Tabela de Serviços Mecânico</th>
+                </tr>
+                <tr>
+                    <th rowspan="5" style="background-color: rgb(5, 107, 102);">Nacionais</th>
+                    <td class="titulo">Veículos</td>
+                    <td class="titulo">Serviços</td>
+                    <td class="titulo">Tempo Previsto</td>
+                    <td class="titulo">Valor</td>
+                </tr>
+                <tr>
+                    <td>Caminhonete S10</td>
+                    <td>Suspensão</td>
+                    <td class="tempo">3 horas e 25 minutos</td>
+                    <td class="valor">350,00</td>
+                </tr>
+                <tr>
+                    <td>Caminhonete Ranger</td>
+                    <td>Freio</td>
+                    <td class="tempo">3 horas e 45 minutos</td>
+                    <td class="valor">200,00</td>
+                </tr>
+                <tr>
+                    <td>Caminhonete Hilux</td>
+                    <td>Troca de Bateria</td>
+                    <td class="tempo">30 minutos</td>
+                    <td class="valor">25,00</td>
+                </tr>
+                <tr>
+                    <td>Caminhote D10</td>
+                    <td>Alinhamento</td>
+                    <td class="tempo">1 hora e 40 minutos</td>
+                    <td class="valor">220,00</td>
+                </tr>
+            </thead>
+            <footer>
+                <th colspan="5" scope="row" style="font-size: 0.7em; padding-bottom: 1px; background-color: aquamarine;" >Desenvolvido por <a href="#">Renato Nunes</a></th>
+            </footer>
+        </table>
+    </div>
+</body>
+</html>
